@@ -5458,7 +5458,7 @@ declare module _ {
         assign<S1, Value, TResult>(
             s1: S1,
             callback?: (objectValue: Value, sourceValue: Value) => Value,
-            thisArg?: any): TResult;
+            thisArg?: any): LoDashObjectWrapper<TResult>;
 
         /**
         * @see _.assign
@@ -5467,7 +5467,7 @@ declare module _ {
             s1: S1,
             s2: S2,
             callback?: (objectValue: Value, sourceValue: Value) => Value,
-            thisArg?: any): TResult;
+            thisArg?: any): LoDashObjectWrapper<TResult>;
         /**
         * @see _.assign
         **/
@@ -5476,7 +5476,7 @@ declare module _ {
             s2: S2,
             s3: S3,
             callback?: (objectValue: Value, sourceValue: Value) => Value,
-            thisArg?: any): TResult;
+            thisArg?: any): LoDashObjectWrapper<TResult>;
         /**
         * @see _.assign
         **/
@@ -5486,7 +5486,7 @@ declare module _ {
             s3: S3,
             s4: S4,
             callback?: (objectValue: Value, sourceValue: Value) => Value,
-            thisArg?: any): TResult;
+            thisArg?: any): LoDashObjectWrapper<TResult>;
         /**
         * @see _.assign
         **/
@@ -5497,7 +5497,7 @@ declare module _ {
             s4: S4,
             s5: S5,
             callback?: (objectValue: Value, sourceValue: Value) => Value,
-            thisArg?: any): TResult;
+            thisArg?: any): LoDashObjectWrapper<TResult>;
 
         /**
         * @see _.assign
@@ -5505,7 +5505,7 @@ declare module _ {
         extend<S1, Value, TResult>(
             s1: S1,
             callback?: (objectValue: Value, sourceValue: Value) => Value,
-            thisArg?: any): TResult;
+            thisArg?: any): LoDashObjectWrapper<TResult>;
 
         /**
         * @see _.assign
@@ -5514,7 +5514,7 @@ declare module _ {
             s1: S1,
             s2: S2,
             callback?: (objectValue: Value, sourceValue: Value) => Value,
-            thisArg?: any): TResult;
+            thisArg?: any): LoDashObjectWrapper<TResult>;
         /**
         * @see _.assign
         **/
@@ -5523,7 +5523,7 @@ declare module _ {
             s2: S2,
             s3: S3,
             callback?: (objectValue: Value, sourceValue: Value) => Value,
-            thisArg?: any): TResult;
+            thisArg?: any): LoDashObjectWrapper<T>;
         /**
         * @see _.assign
         **/
@@ -5533,7 +5533,7 @@ declare module _ {
             s3: S3,
             s4: S4,
             callback?: (objectValue: Value, sourceValue: Value) => Value,
-            thisArg?: any): TResult;
+            thisArg?: any): LoDashObjectWrapper<T>;
         /**
         * @see _.assign
         **/
@@ -5544,7 +5544,7 @@ declare module _ {
             s4: S4,
             s5: S5,
             callback?: (objectValue: Value, sourceValue: Value) => Value,
-            thisArg?: any): TResult;
+            thisArg?: any): LoDashObjectWrapper<T>;
 
     }
 
